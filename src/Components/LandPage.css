@@ -1,0 +1,60 @@
+.landPage {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightsalmon;
+    position: relative;
+    /* background: url(./disn.jpeg); */
+    /* background-repeat: no-repeat; */
+}
+.landPage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.smallBox {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    /* background-color: aquamarine; */
+    top: 27%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+}
+.box1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    /* background-color: lightcoral; */
+    
+}
+.box1 p{
+    font-size: 16px;
+    margin-top: 3%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.box1 button{
+    width: 48%;
+    height: 28%;
+    margin-top: 3%;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(128, 176, 240);
+    
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
